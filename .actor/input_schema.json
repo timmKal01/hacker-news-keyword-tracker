@@ -1,0 +1,40 @@
+{
+    "title": "Hacker News Keyword Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "keywords": {
+            "title": "Keywords",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Search terms (e.g. your product name, a competitor, a topic). One search is billed per keyword.",
+            "prefill": ["ai"]
+        },
+        "includeComments": {
+            "title": "Include comment mentions",
+            "type": "boolean",
+            "editor": "checkbox",
+            "description": "Also match comments, not just submitted stories.",
+            "default": true
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "Only return posts/comments from within this many days of today.",
+            "default": 14,
+            "minimum": 1,
+            "maximum": 90
+        },
+        "maxResultsPerKeyword": {
+            "title": "Max results per keyword",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of matches to return per keyword, most recent first.",
+            "default": 20,
+            "minimum": 1,
+            "maximum": 100
+        }
+    },
+    "required": ["keywords"]
+}

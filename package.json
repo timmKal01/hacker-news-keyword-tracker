@@ -1,0 +1,15 @@
+{
+    "name": "hacker-news-keyword-tracker",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Track new Hacker News stories and comments matching a keyword via the official Algolia HN Search API.",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "apify": "^3.2.6"
+    },
+    "scripts": {
+        "start": "node src/main.js"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Hacker News Keyword Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Mentions",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
