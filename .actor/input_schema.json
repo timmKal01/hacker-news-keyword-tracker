@@ -8,7 +8,8 @@
             "type": "array",
             "editor": "stringList",
             "description": "Search terms (e.g. your product name, a competitor, a topic). One search is billed per keyword.",
-            "prefill": ["ai"]
+            "prefill": ["ai"],
+            "default": ["ai"]
         },
         "includeComments": {
             "title": "Include comment mentions",
