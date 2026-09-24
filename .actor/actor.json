@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "hacker-news-keyword-tracker",
-    "title": "Hacker News Keyword Tracker — New Mentions & Discussions",
+    "title": "Hacker News Mention Tracker by Keyword",
     "description": "Track new Hacker News stories and comments mentioning a keyword — your product, your competitor, or a topic. Get the title, points, comment count, author, and link the moment it's posted. For founders and marketers watching for mentions, and researchers tracking a topic's discussion.",
     "version": "0.1",
     "meta": {
