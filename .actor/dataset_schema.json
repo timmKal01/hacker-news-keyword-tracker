@@ -1,0 +1,63 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "keyword",
+                    "type",
+                    "title",
+                    "author",
+                    "points",
+                    "numComments",
+                    "createdAt",
+                    "hnUrl",
+                    "externalUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "keyword": {
+                        "label": "Keyword",
+                        "format": "text"
+                    },
+                    "type": {
+                        "label": "Type",
+                        "format": "text"
+                    },
+                    "title": {
+                        "label": "Title",
+                        "format": "text"
+                    },
+                    "author": {
+                        "label": "Author",
+                        "format": "text"
+                    },
+                    "points": {
+                        "label": "Points",
+                        "format": "number"
+                    },
+                    "numComments": {
+                        "label": "Comments",
+                        "format": "number"
+                    },
+                    "createdAt": {
+                        "label": "Posted",
+                        "format": "date"
+                    },
+                    "hnUrl": {
+                        "label": "HN link",
+                        "format": "link"
+                    },
+                    "externalUrl": {
+                        "label": "Linked URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
