@@ -61,4 +61,4 @@ per keyword whether it matches 0 or 100 posts/comments.
 
 ## Related products
 
-- [GitHub Release Tracker](https://github.com/timmKal01/github-release-tracker) — new versions of repos you depend on, a different kind of "watch this thing" tracker
+- [GitHub Release Tracker](https://apify.com/m_ctim/github-release-tracker): new versions of repos you depend on, a different kind of "watch this thing" tracker
