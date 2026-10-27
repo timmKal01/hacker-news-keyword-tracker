@@ -30,7 +30,7 @@ for (const keyword of keywords) {
     }
 
     if (mentions.length > 0) {
-        await Actor.pushData(mentions);
+        await Actor.pushData(mentions.map((mention) => ({ rowType: 'mention', ...mention })));
     }
     await Actor.charge({ eventName: KEYWORD_SEARCH_EVENT });
 

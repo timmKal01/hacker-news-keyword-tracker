@@ -32,6 +32,7 @@ One record per match:
 
 ```json
 {
+  "rowType": "mention",
   "keyword": "apify",
   "type": "story",
   "objectID": "49119659",
